@@ -1,0 +1,35 @@
+.footer {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rrss {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+hr {
+    width: 35%;
+    height: 1px;
+}
+
+.nav-link-footer {
+    text-decoration: none;
+    color: #ffffff;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+}
+
+.nav-link-footer:hover {
+    color: #7befe5;
+}
